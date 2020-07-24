@@ -28,7 +28,7 @@ fetch( "https://cat-fact.herokuapp.com/facts" ) // Sends the request...
     { // Prepare an LI for this person.
       const catLI = document.createElement( "LI" );
       // Add some text content (using template literal to inject our values.)
-      catLI.textContent = `A fact for ${catFactsList.type}: ${catFactsList.text} voted by ${catFactsList.upvotes} feline(s)`;
+      catLI.textContent = `A fact for a ${catFactsList.type}: ${catFactsList.text} voted by ${catFactsList.upvotes} feline(s)`;
       // Add this <li> to our <ul>.
       catUL.appendChild( catLI );
     }
